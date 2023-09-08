@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 184, 155);
+    height: 100%;
+    width: 100%;
+}
+
+#panel {
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#ptop {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(72, 104, 72);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+#logo img {
+    height: 60px;
+}
+
+#elem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.elem h2 {
+    font-weight: 500;
+}
+
+.box {
+    color: rgb(18, 119, 57);
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 5px;
+    padding: 2px 8px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+#ptop #highscore {
+    display: flex;
+}
+
+#pbtm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100% - 75px);
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+}
+
+.bubble:hover,
+#btn:hover {
+    background-color: rgb(50, 75, 50);
+    cursor: pointer;
+}
+
+#over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    margin: 5px 0px;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+    background-color: rgb(72, 104, 72);
+    font-size: 17px;
+}
